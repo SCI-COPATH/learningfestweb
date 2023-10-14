@@ -1,0 +1,15 @@
+div{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    width: fit-content;
+    
+}
+label{
+   padding-right: 50px;
+}
+input{
+    padding: 20px;
+    margin: 10px 20px;
+    transform: scale(2);
+}

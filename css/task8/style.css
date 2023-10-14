@@ -1,0 +1,7 @@
+h1{
+    color: gray;
+    background-image: linear-gradient(to left,violet, indigo, blue, green, yellow, orange, red);
+    width: fit-content;
+    padding: 20px;
+    
+}
