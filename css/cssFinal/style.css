@@ -56,9 +56,12 @@ label{
     width: 100%;
     border: none;
     padding: 10px;
-    background-color:#222222;
+    background-color:black;
     color: white;
     margin-top: 10px;
     
     
+}
+.submitForm button:hover{
+    background-color: #222222;
 }
