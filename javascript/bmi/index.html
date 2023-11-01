@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BMI calulator</title>
+</head>
+<body>
+
+    <div class="outer-outer">
+        <div class="outer">
+            <div class="inner">
+                <div class="hedder">
+                    <div class="image-box">
+                        <img src="./assets/bmi_image.svg" alt="bmi image">
+                    </div>
+                    <h2>BMI Caluclator</h2>
+                </div>
+                    <div class="content">
+                        <div class="inner-content">
+                            <label for="weight">Weight
+                            </label><br>
+                            <input type="number" id="weight" min="0">
+                        </div>
+                        <div class="inner-content">
+                            <label for="height" >Height
+                            </label><br>
+                            <input type="number"  min="0" id="height">
+                        </div>
+                        <div class="inner-content sub">
+                            <button type="submit" onclick="calculateBMI()" >Compute</button>
+                        </div>
+                        <div class="inner-content result">
+                            <p>Your BMI is <span id="bmi-val">[BMI value]</span>, and based on this, your condition is classified as <span id="bmi-msg">[BMI category]</span> .</p>
+                        </div>
+                        
+                    </div>
+                    <div class="footer">
+                            
+                    </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+    <!-- <h2>Bmi Calulator</h2>
+    <div class="outer-outer">
+    <div class="outer">
+        <div class="inner">
+            <label for="firstNumber">Enter Number 1 : </label><input type="number" name="firstNumber" id="firstNumber" value="0" onclick="sum()">
+        </div>
+        <div class="inner">
+            <label for="secNumber">Enter Number 2 : </label><input type="number" name="secNumber" id="secNumber" value="0" onclick="sum()" >
+        </div>
+        <div class="inner" id="result">
+            
+        </div>
+    </div>
+</div> -->
+    <script src="./script.js"></script>
+</body>
+</html>

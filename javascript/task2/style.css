@@ -1,0 +1,28 @@
+.outer-outer{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.outer{
+    padding: 10px;
+}
+.inner{
+    padding: 10px;
+      
+}
+.inner input{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+
+}
+#result p{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
