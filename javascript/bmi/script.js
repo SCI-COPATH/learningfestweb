@@ -3,7 +3,7 @@ let weight=document.getElementById('weight')
 function calculateBMI(){
     console.log(weight.value)
     console.log(height.value)
-    let BMI=parseFloat(weight.value)/(parseFloat(height.value)*parseFloat(height.value))
+    let BMI=parseFloat(weight.value)/(parseFloat(height.value)*parseFloat(height.value))*10000
     let message=''
     
     if (BMI>=40){
