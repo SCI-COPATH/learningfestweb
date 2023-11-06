@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="vertical">
+        <div class="horisondal">
+            <form id="form" class="form">
+                <h2>Registration</h2>
+                <div class="inner">
+                    <label for="name">Name </label>
+                    <input type="text" id="name" placeholder="Enter name">
+                    <small>err message</small>
+                </div>
+                <div class="inner">
+                    <label for="mail">Mail</label>
+                    <input type="text" id="mail" placeholder="Enter Email">
+                    <small>err message</small>
+                </div>
+                
+                <div class="inner">
+                    <label for="password">Pasword</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <small>err message</small>
+                </div>
+                <div class="inner">
+                    <label for="confirm">Confirm pasword</label>
+                    <input type="confirm" id="confirm" placeholder="Re enter password">
+                    <small>err message</small>
+                </div>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </form>
+            <div class="hiddin" id="feedback">
+                <p>You Successfully Submitted</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
